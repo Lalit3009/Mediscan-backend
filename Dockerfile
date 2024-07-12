@@ -23,4 +23,4 @@ ENV MODULE_NAME=main
 ENV APP_NAME=app
 
 # Run the application
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "5001", "--reload"]
